@@ -3,7 +3,7 @@ provider "azurerm" {
 
   subscription_id = "${var.sid}"
   client_id       = "${var.cid}"
-  client_secret   = ${SECRET_FILE_ID}
+  client_secret   = $clients
   tenant_id       = "${var.tenantid}"
   features {}
 }
