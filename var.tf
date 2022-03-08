@@ -1,5 +1,5 @@
 variable "name" {
-    default="mytf2"
+    default="mytfjenkins"
 }
 variable"location"{
     default="eastus"
